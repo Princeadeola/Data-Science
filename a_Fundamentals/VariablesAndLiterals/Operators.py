@@ -112,7 +112,9 @@ Operator	Meaning	Example
 <	Less Than	3 < 5 gives us True
 >=	Greater Than or Equal To	3 >= 5 give us False
 <=	Less Than or Equal To	3 <= 5 gives us True
-Example 3: Comparison Operators
+"""
+
+# Comparison Operators
 a = 5
 
 b = 2
@@ -134,27 +136,22 @@ print('a >= b =', a >= b)
 
 # less than or equal to operator
 print('a <= b =', a <= b)
-Run Code
-Output
 
-a == b = False
-a != b = True
-a > b = True
-a < b = False
-a >= b = True
-a <= b = False
-Note: Comparison operators are used in decision-making and loops. We'll discuss more of the comparison operator and decision-making in later tutorials.
+# Note: Comparison operators are used in decision-making and loops.
 
-4. Python Logical Operators
-Logical operators are used to check whether an expression is True or False. They are used in decision-making. For example,
-
+"""
+Python Logical Operators
+Logical operators are used to check whether an expression is True or False. 
+They are used in decision-making. For example,
+"""
 a = 5
 b = 6
 
 print((a > 2) and (b >= 6))    # True
-Run Code
-Here, and is the logical operator AND. Since both a > 2 and b >= 6 are True, the result is True.
 
+# Here, and is the logical operator AND. Since both a > 2 and b >= 6 are True, the result is True.
+
+"""
 Operator	Example	Meaning
 and	a and b	Logical AND:
 True only if both the operands are True
@@ -162,34 +159,40 @@ or	a or b	Logical OR:
 True if at least one of the operands is True
 not	not a	Logical NOT:
 True if the operand is False and vice-versa.
-Example 4: Logical Operators
+"""
+
+# Logical Operators
 # logical AND
-print(True and True)     # True
-print(True and False)    # False
+print(True and True)
+print(True and False)
 
 # logical OR
-print(True or False)     # True
+print(True or False)
 
 # logical NOT
-print(not True)          # False
-Run Code
-Note: Here is the truth table for these logical operators.
+print(not True)
 
-5. Python Bitwise operators
+# Note: Here is the truth table for these logical operators.
+
+"""
+Python Bitwise operators
 Bitwise operators act on operands as if they were strings of binary digits. They operate bit by bit, hence the name.
 
 For example, 2 is 10 in binary, and 7 is 111.
 
 In the table below: Let x = 10 (0000 1010 in binary) and y = 4 (0000 0100 in binary)
 
-Operator	Meaning	Example
-&	Bitwise AND	x & y = 0 (0000 0000)
-|	Bitwise OR	x | y = 14 (0000 1110)
-~	Bitwise NOT	~x = -11 (1111 0101)
-^	Bitwise XOR	x ^ y = 14 (0000 1110)
->>	Bitwise right shift	x >> 2 = 2 (0000 0010)
-<<	Bitwise left shift	x 0010 1000)
-6. Python Special operators
+Operator	Meaning	            Example
+&	        Bitwise AND	        x & y = 0 (0000 0000)
+|	        Bitwise OR	        x | y = 14 (0000 1110)
+~	        Bitwise NOT	        ~x = -11 (1111 0101)
+^	        Bitwise XOR	        x ^ y = 14 (0000 1110)
+>>	        Bitwise right shift	x >> 2 = 2 (0000 0010)
+<<	        Bitwise left shift	x 0010 1000)
+"""
+
+"""
+Python Special operators
 Python language offers some special types of operators like the identity operator and the membership operator. They are described below with examples.
 
 Identity operators
@@ -200,7 +203,9 @@ It's important to note that having two variables with equal values doesn't neces
 Operator	Meaning	Example
 is	True if the operands are identical (refer to the same object)	x is True
 is not	True if the operands are not identical (do not refer to the same object)	x is not True
-Example 4: Identity operators in Python
+"""
+
+# Identity operators in Python
 x1 = 5
 y1 = 5
 x2 = 'Hello'
@@ -213,19 +218,23 @@ print(x1 is not y1)  # prints False
 print(x2 is y2)  # prints True
 
 print(x3 is y3)  # prints False
-Run Code
-Here, we see that x1 and y1 are integers of the same values, so they are equal as well as identical. The same is the case with x2 and y2 (strings).
 
-But x3 and y3 are lists. They are equal but not identical. It is because the interpreter locates them separately in memory, although they are equal.
+"""
+Here, we see that x1 and y1 are integers of the same values, so they are equal as well as identical. 
+The same is the case with x2 and y2 (strings).
+
+But x3 and y3 are lists. They are equal but not identical. It is because the interpreter 
+locates them separately in memory, although they are equal.
 
 Membership operators
-In Python, in and not in are the membership operators. They are used to test whether a value or variable is found in a sequence (string, list, tuple, set and dictionary).
+In Python, in and not in are the membership operators. They are used to test whether a 
+value or variable is found in a sequence (string, list, tuple, set and dictionary).
 
 In a dictionary, we can only test for the presence of a key, not the value.
 
 Operator	Meaning	Example
-in	True if value/variable is found in the sequence	5 in x
-not in	True if value/variable is not found in the sequence	5 not in x
+in	        True if value/variable is found in the sequence	5 in x
+not in	    True if value/variable is not found in the sequence	5 not in x
 """
 
 # Membership operators in Python
