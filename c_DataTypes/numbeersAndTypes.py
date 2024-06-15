@@ -53,3 +53,13 @@ print(0b1101011)
 print(0xFB + 0b10)
 
 print(0o15)
+
+"""
+Type Conversion in Python
+In programming, type conversion is the process of converting one type of number into another.
+
+Operations like addition, subtraction convert integers to float implicitly (automatically), 
+if one of the operands is float. For example,
+
+print(1 + 2.0) # this will print 3.0
+"""
