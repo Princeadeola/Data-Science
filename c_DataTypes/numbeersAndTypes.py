@@ -63,3 +63,80 @@ if one of the operands is float. For example,
 
 print(1 + 2.0) # this will print 3.0
 """
+
+print("\n")
+print(".......... Type conversion implicit  ............")
+
+print(1 + 2.3)
+
+print(0.0 + 1)
+
+"""
+Explicit Type Conversion
+We can also use built-in functions like int(), float() and complex() to convert between types explicitly. 
+These functions can even convert from strings.
+"""
+
+print("\n")
+print(".......... Type conversion Explicit  ............")
+
+print(int(1.2) + 2)
+
+print(complex(2 + 4j))
+
+print(int(3.9) + 5)
+
+
+"""
+Random Module
+Python offers the random module to generate random numbers or to pick a random item from an iterator.
+
+First we need to import the random module. For example,
+
+"""
+
+print("\n")
+print(".......... Random  ............")
+
+import random
+
+list1 = ['a', 'b', 'c', 'd', 'e']
+
+# get random item from list1
+print(random.choice(list1))
+
+# Shuffle list1
+random.shuffle(list1)
+
+# Print the shuffled list1
+print(list1)
+
+# Print random element
+print(random.random())
+
+
+print(random.randrange(2,5))
+
+names = ['John', 'Mary', 'Micheal', 'Jane']
+random.shuffle(names)
+print(names)
+
+"""
+Mathematics
+Python offers the math module to carry out different mathematics like trigonometry, 
+logarithms, probability and statistics, etc.
+"""
+
+import math
+
+print(math.pi)
+
+print(math.cos(math.pi))
+
+print(math.exp(10))
+
+print(math.log10(1000))
+
+print(math.sinh(1))
+
+print(math.factorial(6))

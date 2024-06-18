@@ -5,6 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="494de136-8aa7-4612-8312-bd1a0a663e99" name="Changes" comment="Data science">
+      <change afterPath="$PROJECT_DIR$/c_DataTypes/Lists.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/c_DataTypes/numbeersAndTypes.py" beforeDir="false" afterPath="$PROJECT_DIR$/c_DataTypes/numbeersAndTypes.py" afterDir="false" />
     </list>
