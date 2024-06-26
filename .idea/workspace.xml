@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="494de136-8aa7-4612-8312-bd1a0a663e99" name="Changes" comment="Data science">
-      <change afterPath="$PROJECT_DIR$/c_DataTypes/Dictionaries.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/d_functions/funnctions.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -44,6 +44,7 @@
     "Python.Tuples.executor": "Run",
     "Python.TypeConversions.executor": "Run",
     "Python.break&continue.executor": "Run",
+    "Python.funnctions.executor": "Run",
     "Python.ifelsestatments.executor": "Run",
     "Python.numbeersAndTypes.executor": "Run",
     "Python.passstatement.executor": "Run",
@@ -54,7 +55,7 @@
     "git-widget-placeholder": "main"
   }
 }]]></component>
-  <component name="RunManager" selected="Python.Dictionaries">
+  <component name="RunManager" selected="Python.funnctions">
     <configuration name="Dictionaries" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="DataScience" />
       <option name="ENV_FILES" value="" />
@@ -143,7 +144,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="numbeersAndTypes" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="funnctions" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="DataScience" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -152,11 +153,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/c_DataTypes" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/d_functions" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/c_DataTypes/numbeersAndTypes.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/d_functions/funnctions.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -167,18 +168,18 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.funnctions" />
         <item itemvalue="Python.Dictionaries" />
         <item itemvalue="Python.Sets" />
         <item itemvalue="Python.Tuples" />
         <item itemvalue="Python.Lists" />
-        <item itemvalue="Python.numbeersAndTypes" />
       </list>
     </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-python-sdk-67fca87a943a-d3b881c8e49f-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-233.11799.259" />
+        <option value="bundled-python-sdk-eebebe6c2be4-d3b881c8e49f-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-233.15325.20" />
       </set>
     </attachedChunks>
   </component>
